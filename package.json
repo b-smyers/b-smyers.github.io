@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-website",
+  "name": "b-smyers.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages --dotfiles --nojekyll -d dist -b main -r git@github.com:b-smyers/bsmyers.github.io.git -f",
+    "deploy": "gh-pages --dotfiles --nojekyll -d dist -b gh-pages -f",
     "preview": "vite preview"
   },
   "dependencies": {
