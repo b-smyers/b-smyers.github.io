@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages --dotfiles --nojekyll -d dist -r git@github.com:b-smyers/b-smyers.github.io.git",
     "preview": "vite preview"
   },
   "dependencies": {
