@@ -1,0 +1,602 @@
+[
+    {
+        "id": 0,
+        "quote": "Every journey is a series of choices. The first is to begin the journey.",
+        "name": "Main Hub"
+    },
+    {
+        "id": 1,
+        "quote": "Patience has its own rewards.",
+        "name": "A Game Of Leap Frog"
+    },
+    {
+        "id": 2,
+        "quote": "Taking the first step can be harder than the rest of the challenge.",
+        "name": "Leap Of Faith"
+    },
+    {
+        "id": 3,
+        "quote": "Many small obstacles can make for one large problem.",
+        "name": "Now You See It"
+    },
+    {
+        "id": 4,
+        "quote": "Some choices leave us running around a lot without really getting anywhere.",
+        "name": "Many Paths To Nowhere"
+    },
+    {
+        "id": 5,
+        "quote": "Live on your own watch, not on someone else's.",
+        "name": "Against the Clock"
+    },
+    {
+        "id": 6,
+        "quote": "Failing to succeed does not mean failing to progress.",
+        "name": "Into Darkness"
+    },
+    {
+        "id": 7,
+        "quote": "Some paths are clearer than others.",
+        "name": "Into Darkness"
+    },
+    {
+        "id": 8,
+        "quote": "Some paths are straight forward.",
+        "name": "Down The Rabbit Hole"
+    },
+    {
+        "id": 9,
+        "quote": "A choice may be as simple as going left or going right.",
+        "name": "Many Paths To Nowhere"
+    },
+    {
+        "id": 10,
+        "quote": "The choice doesn't matter if the outcome is the same.",
+        "name": "Many Paths To Nowhere"
+    },
+    {
+        "id": 11,
+        "quote": "If you don't like where you've ended up, try doing something else.",
+        "name": "A Fresh Start"
+    },
+    {
+        "id": 12,
+        "quote": "When you return to where you have been, things aren't always as remembered.",
+        "name": "Many Paths To Nowhere"
+    },
+    {
+        "id": 13,
+        "quote": "We fall down when there is nothing there to support us.",
+        "name": "Strength In Numbers"
+    },
+    {
+        "id": 14,
+        "quote": "Building a bridge can get you over a problem.",
+        "name": "Cry Me A River"
+    },
+    {
+        "id": 15,
+        "quote": "Some hurdles are too high to jump over.",
+        "name": "Don't Look Down"
+    },
+    {
+        "id": 16,
+        "quote": "Life is full of ups and downs.",
+        "name": "Breaking The Arc"
+    },
+    {
+        "id": 17,
+        "quote": "Connecting the pieces can solve a puzzle.",
+        "name": "Four Different Exits"
+    },
+    {
+        "id": 18,
+        "quote": "Life has a way of pushing us in the right direction.",
+        "name": "Down The Rabbit Hole"
+    },
+    {
+        "id": 19,
+        "quote": "The end may come before we were ready to get there.",
+        "name": "There's No Way In"
+    },
+    {
+        "id": 20,
+        "quote": "Life isn't about getting to the end.",
+        "name": "There's No Way In"
+    },
+    {
+        "id": 21,
+        "quote": "It's harder to progress if you're leaving things behind.",
+        "name": "Skinning A Cat"
+    },
+    {
+        "id": 22,
+        "quote": "The further we get, the less help we need.",
+        "name": "I Can Do Anything"
+    },
+    {
+        "id": 23,
+        "quote": "Moving forward may require making the most of what you've got.",
+        "name": "Not Enough Pieces"
+    },
+    {
+        "id": 24,
+        "quote": "Some tasks require a lot of care and observation.",
+        "name": "Learning To Draw"
+    },
+    {
+        "id": 25,
+        "quote": "Taking one path often means missing out on another.",
+        "name": "Hidden Secrets"
+    },
+    {
+        "id": 26,
+        "quote": "A path may not be right or wrong. It may just be different.",
+        "name": "Don't Look Down"
+    },
+    {
+        "id": 27,
+        "quote": "Look a little harder, and you will find a way forward.",
+        "name": "Into Darkness"
+    },
+    {
+        "id": 28,
+        "quote": "Venturing into the unknown can lead to great rewards.",
+        "name": "There's No Way In"
+    },
+    {
+        "id": 29,
+        "quote": "If you're only focusing on right now, you won't have enough for later.",
+        "name": "Not Enough Pieces"
+    },
+    {
+        "id": 30,
+        "quote": "A dead end will only stop you if you don't try to move through it.",
+        "name": "Cry Me A River"
+    },
+    {
+        "id": 31,
+        "quote": "Going a certain way may require building your own path.",
+        "name": "A Wall Without Stairs"
+    },
+    {
+        "id": 32,
+        "quote": "There's nothing wrong with taking shortcuts.",
+        "name": "A Game Of Leap Frog"
+    },
+    {
+        "id": 33,
+        "quote": "We often fall into things when we least expect.",
+        "name": "Taking Baby Steps"
+    },
+    {
+        "id": 34,
+        "quote": "What looks out of reach may only be a few steps away.",
+        "name": "Connecting The Pieces"
+    },
+    {
+        "id": 35,
+        "quote": "There are multiple ways to approach a situation.",
+        "name": "The Final Hurdle"
+    },
+    {
+        "id": 36,
+        "quote": "When you've hit rock bottom, the only way is up.",
+        "name": "Don't Look Down"
+    },
+    {
+        "id": 37,
+        "quote": "Some outcomes are more favorable than others.",
+        "name": "The Final Hurdle"
+    },
+    {
+        "id": 38,
+        "quote": "How we perceive a problem can change every time we see it.",
+        "name": "Three Paths In Sight"
+    },
+    {
+        "id": 39,
+        "quote": "The solution to a problem may just require a more thorough look at it.",
+        "name": "Running Into Trouble"
+    },
+    {
+        "id": 40,
+        "quote": "Rushing through a problem won't always give the right results.",
+        "name": "Running Into Trouble"
+    },
+    {
+        "id": 41,
+        "quote": "Moving through a problem slower may help find the solution.",
+        "name": "The Ground Floor"
+    },
+    {
+        "id": 42,
+        "quote": "If you never stop trying, you will get there eventually.",
+        "name": "Stuck In A Rut"
+    },
+    {
+        "id": 43,
+        "quote": "Raw persistence may be the only option other than giving up entirely.",
+        "name": "Stuck In A Rut"
+    },
+    {
+        "id": 44,
+        "quote": "Some problems just come down to size.",
+        "name": "Strength In Numbers"
+    },
+    {
+        "id": 45,
+        "quote": "A problem may only be difficult when you are missing the right tools.",
+        "name": "Climbing The Tower"
+    },
+    {
+        "id": 46,
+        "quote": "What we've done before may impact what we can do next.",
+        "name": "Not Enough Pieces"
+    },
+    {
+        "id": 47,
+        "quote": "If you aren't paying attention, you will miss everything around you.",
+        "name": "The Butterfly Effect"
+    },
+    {
+        "id": 48,
+        "quote": "Some choices can leave us running around in circles.",
+        "name": "Stuck In A Rut"
+    },
+    {
+        "id": 49,
+        "quote": "Splitting a problem up may help you find the answer.",
+        "name": "Climbing The Tower"
+    },
+    {
+        "id": 50,
+        "quote": "What appears impossible may have a very simple answer.",
+        "name": "Impossible Paths"
+    },
+    {
+        "id": 51,
+        "quote": "If you lose sight of what's important, it may not be there when you need it.",
+        "name": "Now You See It"
+    },
+    {
+        "id": 52,
+        "quote": "Too much curiosity can get the best of us.",
+        "name": "Don't Look Down"
+    },
+    {
+        "id": 53,
+        "quote": "Signs may be helping you more than you realize.",
+        "name": "Don't Look Down"
+    },
+    {
+        "id": 54,
+        "quote": "Understanding a problem requires filling in the pieces.",
+        "name": "Hidden Behind Glass"
+    },
+    {
+        "id": 55,
+        "quote": "Small steps can take you great distances.",
+        "name": "Taking Baby Steps"
+    },
+    {
+        "id": 56,
+        "quote": "The path of least resistance is a valid option.",
+        "name": "Strength In Numbers"
+    },
+    {
+        "id": 57,
+        "quote": "No matter how high you climb, there's always more to achieve.",
+        "name": "The Highest Point"
+    },
+    {
+        "id": 58,
+        "quote": "Falling down teaches us how to get up and try again.",
+        "name": "Red Cross"
+    },
+    {
+        "id": 59,
+        "quote": "The world rarely changes when we watch to see it happen.",
+        "name": "Now You See It"
+    },
+    {
+        "id": 60,
+        "quote": "Half way through is half way finished.",
+        "name": "Learning To Draw"
+    },
+    {
+        "id": 61,
+        "quote": "The problem may not be where you're going, but how to get there.",
+        "name": "Climbing The Tower"
+    },
+    {
+        "id": 62,
+        "quote": "New skills enable further progress.",
+        "name": "Learning To Draw"
+    },
+    {
+        "id": 63,
+        "quote": "Mastering a skill requires practice.",
+        "name": "Learning To Draw"
+    },
+    {
+        "id": 64,
+        "quote": "A little kind direction can get obstacles out of your way.",
+        "name": "I Like To Move It"
+    },
+    {
+        "id": 65,
+        "quote": "Solving a problem may require approaching it from a different angle.",
+        "name": "Many Different Angles"
+    },
+    {
+        "id": 66,
+        "quote": "Try hard enough and you will get to where you want to be.",
+        "name": "Logic 101"
+    },
+    {
+        "id": 67,
+        "quote": "Some doors will close unless we hold them open.",
+        "name": "Skinning A Cat"
+    },
+    {
+        "id": 68,
+        "quote": "When you absorb your surroundings, you may notice things that you didn't see before.",
+        "name": "Three Paths In Sight"
+    },
+    {
+        "id": 69,
+        "quote": "Dig a little deeper and you may find something new.",
+        "name": "Impossible Paths"
+    },
+    {
+        "id": 70,
+        "quote": "Attention to detail can lead to very rewarding outcomes.",
+        "name": "Breaking The Arc"
+    },
+    {
+        "id": 71,
+        "quote": "Solving a problem may require using abilities that we didn't realize we had.",
+        "name": "Closing The Gap"
+    },
+    {
+        "id": 72,
+        "quote": "Old skills are useful even after we have learned new ones.",
+        "name": "A Wall Without Stairs"
+    },
+    {
+        "id": 73,
+        "quote": "The right answers may also be the most obvious ones.",
+        "name": "The Ground Floor"
+    },
+    {
+        "id": 74,
+        "quote": "Some obstacles are more stubborn than others.",
+        "name": "Learning To Draw"
+    },
+    {
+        "id": 75,
+        "quote": "Some things don't have a deeper meaning.",
+        "name": "Red Cross"
+    },
+    {
+        "id": 76,
+        "quote": "The right decisions at the right time will get you where you want to go.",
+        "name": "Lighting The Fuse"
+    },
+    {
+        "id": 77,
+        "quote": "Some choices are only useful when we make them early.",
+        "name": "A Link To The Past"
+    },
+    {
+        "id": 78,
+        "quote": "With forethought, things have a way of just working themselves out.",
+        "name": "Link In A Chain Reaction"
+    },
+    {
+        "id": 79,
+        "quote": "Some challenges are far harder than they first appear.",
+        "name": "The Butterfly Effect"
+    },
+    {
+        "id": 80,
+        "quote": "To get past a problem, you may just need to keep pushing through it.",
+        "name": "Jumping Through Hoops"
+    },
+    {
+        "id": 81,
+        "quote": "Getting to a solution requires cutting out what doesn't work.",
+        "name": "Too Many Lasers"
+    },
+    {
+        "id": 82,
+        "quote": "The further we explore, the more connected everything becomes.",
+        "name": "I Like To Move It"
+    },
+    {
+        "id": 83,
+        "quote": "A window of opportunity can lead to new places if you are willing to take a closer look.",
+        "name": "Rings Within Darkness"
+    },
+    {
+        "id": 84,
+        "quote": "The world looks different on the other side.",
+        "name": "Too Many Lasers"
+    },
+    {
+        "id": 85,
+        "quote": "When you have enough resources, you can start growing more.",
+        "name": "Laying The Foundation"
+    },
+    {
+        "id": 86,
+        "quote": "You can grow a garden anywhere.",
+        "name": "A Loop That Won't Close"
+    },
+    {
+        "id": 87,
+        "quote": "The best solutions may still be the most primitive ones.",
+        "name": "Failing Forward"
+    },
+    {
+        "id": 88,
+        "quote": "If you lead the way, others will follow.",
+        "name": "Hidden Behind Glass"
+    },
+    {
+        "id": 89,
+        "quote": "Straightforward problems can often require roundabout solutions.",
+        "name": "Stairway To Heaven"
+    },
+    {
+        "id": 90,
+        "quote": "If you are missing information, it's easy to be misled.",
+        "name": "A Book And Its Cover"
+    },
+    {
+        "id": 91,
+        "quote": "When you look beyond the surface, there may be more to find.",
+        "name": "Many Different Angles"
+    },
+    {
+        "id": 92,
+        "quote": "Sometimes we only have just enough to get by.",
+        "name": "The Missing Pieces"
+    },
+    {
+        "id": 93,
+        "quote": "When what you have is not enough, find ways to turn it into more.",
+        "name": "Link In A Chain Reaction"
+    },
+    {
+        "id": 94,
+        "quote": "Getting where we want may require jumping through some hoops.",
+        "name": "Jumping Through Hoops"
+    },
+    {
+        "id": 95,
+        "quote": "Throwing yourself into things can take you to new heights.",
+        "name": "The Butterfly Effect"
+    },
+    {
+        "id": 96,
+        "quote": "Similar problems can have entirely different solutions.",
+        "name": "A Wall Without Stairs"
+    },
+    {
+        "id": 97,
+        "quote": "Some events happen whether we want them to or not.",
+        "name": "Inevitable Turns"
+    },
+    {
+        "id": 98,
+        "quote": "Old solutions can apply to new problems.",
+        "name": "Just A Little Bit Shy"
+    },
+    {
+        "id": 99,
+        "quote": "The consequences of one choice can cut us off from making others.",
+        "name": "The Final Hurdle"
+    },
+    {
+        "id": 100,
+        "quote": "At times we need to view the world from someone else's perspective.",
+        "name": "There's No Way In"
+    },
+    {
+        "id": 101,
+        "quote": "Sometimes you need to be carried.",
+        "name": "Impossible Paths"
+    },
+    {
+        "id": 102,
+        "quote": "There comes a time when you can work your way through anything.",
+        "name": "I Can Do Anything"
+    },
+    {
+        "id": 103,
+        "quote": "With more experience, previous challenges aren't so difficult.",
+        "name": "A Book And Its Cover"
+    },
+    {
+        "id": 104,
+        "quote": "There's no need to take apart what already works.",
+        "name": "Deja Vu"
+    },
+    {
+        "id": 105,
+        "quote": "A few steps backwards may keep you moving forwards.",
+        "name": "Window Of Opportunity"
+    },
+    {
+        "id": 106,
+        "quote": "Obscure problems may require unusual solutions.",
+        "name": "Hitting A Wall"
+    },
+    {
+        "id": 107,
+        "quote": "Getting to the end requires tying off the loose ends.",
+        "name": "I Can Do Anything"
+    },
+    {
+        "id": 108,
+        "quote": "The world is always finding new ways to surprise us.",
+        "name": "Over The Edge"
+    },
+    {
+        "id": 109,
+        "quote": "Sometimes we do things just to go along for the ride.",
+        "name": "Many Different Angles"
+    },
+    {
+        "id": 110,
+        "quote": "The more we complete, the harder it gets to find what we missed.",
+        "name": "Many Different Angles"
+    },
+    {
+        "id": 111,
+        "quote": "Some challenges exist just to test how much we know.",
+        "name": "Deja Vu"
+    },
+    {
+        "id": 112,
+        "quote": "You can't do everything yourself.",
+        "name": "Failing Forward"
+    },
+    {
+        "id": 113,
+        "quote": "The world is full of secrets waiting to be uncovered.",
+        "name": "One Long Corridor"
+    },
+    {
+        "id": 114,
+        "quote": "Peeking behind the curtains lets us see how everything works.",
+        "name": "Over The Edge"
+    },
+    {
+        "id": 115,
+        "quote": "Some problems can't be solved until you're more experienced.",
+        "name": "A Jump Too Far"
+    },
+    {
+        "id": 116,
+        "quote": "We move on when there is nothing left to learn.",
+        "name": "A Jump Too Far"
+    },
+    {
+        "id": 117,
+        "quote": "Complicated problems are easier when solved one step at a time.",
+        "name": "The Chase"
+    },
+    {
+        "id": 118,
+        "quote": "We can appreciate the entire journey by looking back at how far we have come.",
+        "name": "The Escape"
+    },
+    {
+        "id": 119,
+        "quote": "Every journey comes to an end.",
+        "name": "The Escape"
+    }
+]

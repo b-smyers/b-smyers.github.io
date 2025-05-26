@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Python",
+    "id": "python",
+    "icon": "/icons/languages/python.svg",
+    "link": "https://www.python.org/",
+    "color": "#2A5982"
+  },
+  {
+    "name": "JavaScript",
+    "id": "javascript",
+    "icon": "/icons/languages/javascript.svg",
+    "link": "https://en.wikipedia.org/wiki/JavaScript",
+    "color": "#F7DF1E"
+  },
+  {
+    "name": "C++",
+    "id": "cpp",
+    "icon": "/icons/languages/cpp.svg",
+    "link": "https://isocpp.org/",
+    "color": "#00599C"
+  },
+  {
+    "name": "Java",
+    "id": "java",
+    "icon": "/icons/languages/java.svg",
+    "link": "https://www.oracle.com/java/",
+    "color": "#007396"
+  },
+  {
+    "name": "C#",
+    "id": "c-sharp",
+    "icon": "/icons/languages/c_sharp.png",
+    "link": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    "color": "#178600"
+  },
+  {
+    "name": "Ocaml",
+    "id": "ocaml",
+    "icon": "/icons/languages/ocaml.svg",
+    "link": "https://ocaml.org/",
+    "color": "#DC4405"
+  },
+  {
+    "name": "Lua",
+    "id": "lua",
+    "icon": "/icons/languages/lua.png",
+    "link": "https://lua.org/",
+    "color": "#008080"
+  }
+]

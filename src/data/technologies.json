@@ -1,0 +1,104 @@
+[
+    {
+        "name": "GitHub",
+        "id": "github",
+        "icon": "/icons/technologies/github.svg",
+        "link": "https://github.com/"
+    },
+    {
+        "name": "GitHub Actions",
+        "id": "github-actions",
+        "icon": "/icons/technologies/github_actions.svg",
+        "link": "https://github.com/features/actions"
+    },
+    {
+        "name": "Node.js",
+        "id": "nodejs",
+        "icon": "/icons/technologies/nodejs.svg",
+        "link": "https://nodejs.org/"
+    },
+    {
+        "name": "Docker",
+        "id": "docker",
+        "icon": "/icons/technologies/docker.svg",
+        "link": "https://www.docker.com/"
+    },
+    {
+        "name": "React",
+        "id": "react",
+        "icon": "/icons/technologies/react.svg",
+        "link": "https://react.dev/"
+    },
+    {
+        "name": "NGINX",
+        "id": "nginx",
+        "icon": "/icons/technologies/nginx.svg",
+        "link": "https://nginx.org/"
+    },
+    {
+        "name": "Vite.js",
+        "id": "vitejs",
+        "icon": "/icons/technologies/vitejs.svg",
+        "link": "https://vite.dev/"
+    },
+    {
+        "name": "Jest",
+        "id": "jest",
+        "icon": "/icons/technologies/jest.svg",
+        "link": "https://jestjs.io/"
+    },
+    {
+        "name": "ESLint",
+        "id": "eslint",
+        "icon": "/icons/technologies/eslint.svg",
+        "link": "https://eslint.org/"
+    },
+    {
+        "name": "SQLite",
+        "id": "sqlite",
+        "icon": "/icons/technologies/sqlite.svg",
+        "link": "https://sqlite.org/"
+    },
+    {
+        "name": "ExpressJS",
+        "id": "expressjs",
+        "icon": "/icons/technologies/express.svg",
+        "link": "https://expressjs.com/"
+    },
+    {
+        "name": "Git",
+        "id": "git",
+        "icon": "/icons/technologies/git.svg",
+        "link": "https://git-scm.com"
+    },
+    {
+        "name": "Gradle",
+        "id": "gradle",
+        "icon": "/icons/technologies/gradle.svg",
+        "link": "https://gradle.org/"
+    },
+    {
+        "name": "Selenium",
+        "id": "selenium",
+        "icon": "/icons/technologies/selenium.svg",
+        "link": "https://www.selenium.dev/"
+    },
+    {
+        "name": "JUnit",
+        "id": "junit",
+        "icon": "/icons/technologies/junit.svg",
+        "link": "https://junit.org/junit5/"
+    },
+    {
+        "name": "MongoDB",
+        "id": "mongodb",
+        "icon": "/icons/technologies/mongodb.svg",
+        "link": "https://www.mongodb.com/"
+    },
+    {
+        "name": "Material UI",
+        "id": "material-ui",
+        "icon": "/icons/technologies/material-ui.svg",
+        "link": "https://mui.com/"
+    }
+]

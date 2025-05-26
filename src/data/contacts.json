@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "name": "LinkedIn",
+        "icon": "/icons/contacts/linkedin.svg",
+        "link": "https://www.linkedin.com/in/b-smyers/",
+        "caption": "Who I've worked with"
+    },
+    {
+        "id": 1,
+        "name": "GitHub",
+        "icon": "/icons/contacts/github.svg",
+        "link": "https://github.com/b-smyers/",
+        "caption": "What I'm working on"
+    },
+    {
+        "id": 2,
+        "name": "Outlook",
+        "icon": "/icons/contacts/outlook.svg",
+        "link": "mailto:bs602422@ohio.edu",
+        "caption": "Where to contact me"
+    },
+    {
+        "id": 3,
+        "name": "Handshake",
+        "icon": "/icons/contacts/handshake.png",
+        "link": "https://ohio.joinhandshake.com/profiles/buxmhj",
+        "caption": "Recruit me?"
+    }
+]
