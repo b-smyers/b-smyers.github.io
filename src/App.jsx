@@ -587,14 +587,14 @@ function App() {
             </Typography>
             <Grid
               container
-              direction={{ xs: 'column', sm: 'column', md: 'row' }}
+              direction={{ xs: 'column', lg: 'row' }}
               spacing={2}
               sx={{
                 flexWrap: 'nowrap'
               }}
             >
               <Grid
-                size={{ xs: 8, sm: 8, md: 8, lg: 8 }}
+                size={{ xs: 12, lg: 8 }}
                 sx={{
                   flex: 1,
                 }}
@@ -606,7 +606,7 @@ function App() {
                 </Typography>
               </Grid>
               <Grid
-                size={{ xs: 4, sm: 4, md: 4, lg: 4 }}
+                size={{ xs: 12, lg: 4 }}
                 sx={{
                   flex: 1,
                 }}
