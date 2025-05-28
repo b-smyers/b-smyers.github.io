@@ -5,6 +5,10 @@ import {
 } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 
+const isString = (value) => {
+  return typeof value === 'string' || value instanceof String;
+}
+
 function PaperButton({ link, icon, text, sx }) {
   const theme = useTheme();
 
@@ -16,6 +20,19 @@ function PaperButton({ link, icon, text, sx }) {
         cursor: 'pointer',
       }
     : {};
+
+  const image = (
+    isString(icon) ? (
+      <img
+        src={icon}
+        alt={text || icon.split('/').pop()}
+        style={{ height: '100%', objectFit: 'contain' }}
+        loading="lazy"
+      />
+    ) : (
+      icon
+    )
+  );
 
   const paper = (
     <Paper
@@ -34,27 +51,23 @@ function PaperButton({ link, icon, text, sx }) {
         ...sx
       }}
     >
-      {icon &&
-        <img 
-          src={icon}
-          alt={text || icon.split('/').pop()}
-          style={{ height: '100%' }}
-          loading="lazy"
-        />
-      }
+      {icon && image}
       {text}
     </Paper>
   );
 
   return link ? (
     <ButtonBase
-      href={link}
+      href={isString(link) && link}
+      onClick={!isString(link) && link}
       target="_blank"
     >
       {paper}
     </ButtonBase>
   ) : (
-    <Box>{paper}</Box>
+    <Box>
+      {paper}
+    </Box>
   );
 }
 
