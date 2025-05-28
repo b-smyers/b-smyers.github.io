@@ -30,6 +30,8 @@ import {
 import { alpha, useTheme } from '@mui/material/styles';
 import { pdfjs, Document, Page } from 'react-pdf';
 
+import PaperButton from './components/PaperButton';
+
 // Web worker for react-pdf
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.mjs',
@@ -425,27 +427,15 @@ function App() {
                           {project.languages.map(languageId => {
                             const language = languages.find(lang => lang.id === languageId);
                             return (
-                              <Paper
+                              <PaperButton
+                                link={language.link}
+                                icon={language.icon}
+                                text={language.name}
                                 sx={{
-                                  height: '2rem',
-                                  bgcolor: theme.palette.background.default,
-                                  p: '4px 8px',
                                   m: '0 0 8px 8px',
-                                  borderRadius: 2,
-                                  display: 'flex',
-                                  gap: 0.75,
-                                  alignItems: 'center',
-                                  fontFamily: theme.typography.fontFamily,
-                                  fontSize: '1rem'
+                                  bgcolor: theme.palette.background.default
                                 }}
-                              >
-                                <img 
-                                  src={language.icon}
-                                  alt={language.name}
-                                  style={{ height: '100%' }}
-                                />
-                                {language.name}
-                              </Paper>
+                              />
                             );
                           })}
                         </Box>
@@ -647,23 +637,13 @@ function App() {
                           pt: 1
                         }}
                       >
-                        {selectedProject.members.map(member => (
-                          <Paper
-                            sx={{
-                              height: '2rem',
-                              width: 'fit-content',
-                              bgcolor: theme.palette.background.paper,
-                              p: '4px 8px',
-                              borderRadius: 2,
-                              display: 'flex',
-                              alignItems: 'center',
-                              fontFamily: theme.typography.fontFamily,
-                              fontSize: '1rem'
-                            }}
-                          >
-                            {member.name} - {member.role}
-                          </Paper>
-                        ))}
+                        {selectedProject.members.map(member => {
+                          return (
+                            <PaperButton
+                              text={member.name + ' ' + member.role}
+                            />
+                          );
+                        })}
                       </Box>
                     </Box>
                   }
@@ -683,30 +663,13 @@ function App() {
                       >
                         {selectedProject.technologies.map(technologyId => {
                           const technology = technologies.find(tech => tech.id === technologyId);
-                          return (<ButtonBase
-                            href={technology.link}
-                          >
-                            <Paper
-                              sx={{
-                                height: '2rem',
-                                bgcolor: theme.palette.background.paper,
-                                p: '4px 8px',
-                                borderRadius: 2,
-                                display: 'flex',
-                                gap: 0.75,
-                                alignItems: 'center',
-                                fontFamily: theme.typography.fontFamily,
-                                fontSize: '1rem'
-                              }}
-                            >
-                              <img 
-                                src={technology.icon}
-                                alt={technology.name}
-                                style={{ height: '100%' }}
-                              />
-                              {technology.name}
-                            </Paper>
-                          </ButtonBase>);
+                          return (
+                            <PaperButton
+                              link={technology.link}
+                              icon={technology.icon}
+                              text={technology.name}
+                            />
+                          );
                         })}
                       </Box>
                     </Box>
@@ -727,30 +690,13 @@ function App() {
                       >
                         {selectedProject.languages.map(languageId => {
                           const language = languages.find(lang => lang.id === languageId);
-                          return (<ButtonBase
-                            href={language.link}
-                          >
-                            <Paper
-                              sx={{
-                                height: '2rem',
-                                bgcolor: theme.palette.background.paper,
-                                p: '4px 8px',
-                                borderRadius: 2,
-                                display: 'flex',
-                                gap: 0.75,
-                                alignItems: 'center',
-                                fontFamily: theme.typography.fontFamily,
-                                fontSize: '1rem'
-                              }}
-                            >
-                              <img 
-                                src={language.icon}
-                                alt={language.name}
-                                style={{ height: '100%' }}
-                              />
-                              {language.name}
-                            </Paper>
-                          </ButtonBase>);
+                          return (
+                            <PaperButton
+                              link={language.link}
+                              icon={language.icon}
+                              text={language.name}
+                            />
+                          );
                         })}
                       </Box>
                     </Box>
