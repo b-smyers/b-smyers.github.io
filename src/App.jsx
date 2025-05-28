@@ -425,19 +425,27 @@ function App() {
                           {project.languages.map(languageId => {
                             const language = languages.find(lang => lang.id === languageId);
                             return (
-                              <Box
+                              <Paper
                                 sx={{
-                                  bgcolor: language.color,
-                                  width: 'fit-content',
-                                  padding: '2px 8px 2px 8px',
-                                  margin: '0 0 8px 8px',
-                                  borderRadius: '8px'
+                                  height: '2rem',
+                                  bgcolor: theme.palette.background.default,
+                                  p: '4px 8px',
+                                  m: '0 0 8px 8px',
+                                  borderRadius: 2,
+                                  display: 'flex',
+                                  gap: 0.75,
+                                  alignItems: 'center',
+                                  fontFamily: theme.typography.fontFamily,
+                                  fontSize: '1rem'
                                 }}
                               >
-                                <Typography>
-                                  {language.name}
-                                </Typography>
-                              </Box>
+                                <img 
+                                  src={language.icon}
+                                  alt={language.name}
+                                  style={{ height: '100%' }}
+                                />
+                                {language.name}
+                              </Paper>
                             );
                           })}
                         </Box>
@@ -587,12 +595,169 @@ function App() {
             >
               {selectedProject.title}
             </Typography>
-            <Typography
-              variant='body1'
+            <Grid
+              container
+              direction={{ xs: 'column', sm: 'column', md: 'row' }}
+              spacing={2}
+              sx={{
+                flexWrap: 'nowrap'
+              }}
             >
-              {selectedProject.description}
-            </Typography>
-
+              <Grid
+                size={{ xs: 8, sm: 8, md: 8, lg: 8 }}
+                sx={{
+                  flex: 1,
+                }}
+              >
+                <Typography
+                  variant='body1'
+                >
+                  {selectedProject.description}
+                </Typography>
+              </Grid>
+              <Grid
+                size={{ xs: 4, sm: 4, md: 4, lg: 4 }}
+                sx={{
+                  flex: 1,
+                }}
+              >
+                <Box
+                  sx={{
+                    width: '100%',
+                    minHeight: '100%',
+                    height: 'fit-content',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    textAlign: 'right',
+                    justifyContent: 'space-between',
+                    gap: 1
+                  }}
+                >
+                  {selectedProject.members.length != 0 && 
+                    <Box>
+                      <Typography variant='h5'>
+                        Members
+                      </Typography>
+                      <Box
+                        sx={{
+                          display: 'flex',
+                          flexDirection: 'column',
+                          alignItems: 'flex-end',
+                          gap: 1,
+                          pt: 1
+                        }}
+                      >
+                        {selectedProject.members.map(member => (
+                          <Paper
+                            sx={{
+                              height: '2rem',
+                              width: 'fit-content',
+                              bgcolor: theme.palette.background.paper,
+                              p: '4px 8px',
+                              borderRadius: 2,
+                              display: 'flex',
+                              alignItems: 'center',
+                              fontFamily: theme.typography.fontFamily,
+                              fontSize: '1rem'
+                            }}
+                          >
+                            {member.name} - {member.role}
+                          </Paper>
+                        ))}
+                      </Box>
+                    </Box>
+                  }
+                  {selectedProject.technologies.length != 0 &&
+                    <Box>
+                      <Typography variant='h5'>
+                        Technologies
+                      </Typography>
+                      <Box
+                        sx={{
+                          display: 'flex',
+                          flexWrap: 'wrap',
+                          justifyContent: 'right',
+                          gap: 1,
+                          pt: 1
+                        }}
+                      >
+                        {selectedProject.technologies.map(technologyId => {
+                          const technology = technologies.find(tech => tech.id === technologyId);
+                          return (<ButtonBase
+                            href={technology.link}
+                          >
+                            <Paper
+                              sx={{
+                                height: '2rem',
+                                bgcolor: theme.palette.background.paper,
+                                p: '4px 8px',
+                                borderRadius: 2,
+                                display: 'flex',
+                                gap: 0.75,
+                                alignItems: 'center',
+                                fontFamily: theme.typography.fontFamily,
+                                fontSize: '1rem'
+                              }}
+                            >
+                              <img 
+                                src={technology.icon}
+                                alt={technology.name}
+                                style={{ height: '100%' }}
+                              />
+                              {technology.name}
+                            </Paper>
+                          </ButtonBase>);
+                        })}
+                      </Box>
+                    </Box>
+                  }
+                  {selectedProject.languages.length != 0 &&
+                    <Box>
+                      <Typography variant='h5'>
+                        Languages
+                      </Typography>
+                      <Box
+                        sx={{
+                          display: 'flex',
+                          flexWrap: 'wrap',
+                          justifyContent: 'right',
+                          gap: 1,
+                          pt: 1
+                        }}
+                      >
+                        {selectedProject.languages.map(languageId => {
+                          const language = languages.find(lang => lang.id === languageId);
+                          return (<ButtonBase
+                            href={language.link}
+                          >
+                            <Paper
+                              sx={{
+                                height: '2rem',
+                                bgcolor: theme.palette.background.paper,
+                                p: '4px 8px',
+                                borderRadius: 2,
+                                display: 'flex',
+                                gap: 0.75,
+                                alignItems: 'center',
+                                fontFamily: theme.typography.fontFamily,
+                                fontSize: '1rem'
+                              }}
+                            >
+                              <img 
+                                src={language.icon}
+                                alt={language.name}
+                                style={{ height: '100%' }}
+                              />
+                              {language.name}
+                            </Paper>
+                          </ButtonBase>);
+                        })}
+                      </Box>
+                    </Box>
+                  }
+                </Box>
+              </Grid>
+            </Grid>
           </Container>
           {/* End inner x padded */}
         </>
