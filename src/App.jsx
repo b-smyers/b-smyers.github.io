@@ -498,6 +498,7 @@ function App() {
                           maxWidth: '100%',
                           height: '300px',
                         }}
+                        loading="lazy"
                       />
                   }
                   sx={{
@@ -789,6 +790,7 @@ function App() {
                       height: '100%',
                       objectFit: 'contain'
                     }}
+                    loading="lazy"
                   />
                 </ButtonBase>
               ))}

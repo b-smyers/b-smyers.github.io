@@ -39,6 +39,7 @@ function PaperButton({ link, icon, text, sx }) {
           src={icon}
           alt={text || icon.split('/').pop()}
           style={{ height: '100%' }}
+          loading="lazy"
         />
       }
       {text}
