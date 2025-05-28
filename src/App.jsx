@@ -67,7 +67,7 @@ function App() {
   const [quote, setQuote] = React.useState(quotes[Math.floor(Math.random() * quotes.length)]);
 
   const onChangeQuote = () => {
-    setQuote(quotes[quote.id + 1 % quotes.length]);
+    setQuote(quotes[(quote.id + 1) % quotes.length]);
   }
 
   // Project tabs
