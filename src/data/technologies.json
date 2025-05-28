@@ -60,7 +60,7 @@
         "link": "https://sqlite.org/"
     },
     {
-        "name": "ExpressJS",
+        "name": "Express.js",
         "id": "expressjs",
         "icon": "/icons/technologies/express.svg",
         "link": "https://expressjs.com/"
