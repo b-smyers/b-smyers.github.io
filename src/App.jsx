@@ -544,42 +544,24 @@ function App() {
                 }}
               />
               {selectedProject.link &&
-                <Button
-                  href={selectedProject.link}
-                  target='_blank'
-                  variant='contained'
+                <PaperButton
+                  link={selectedProject.link}
+                  icon={<OpenInNew />}
                   sx={{
                     height: '35px',
-                    aspectRatio: 1,
-                    p: '6px',
-                    minWidth: 0,
-                    bgcolor: theme.palette.background.paper
+                    p: 0.75
                   }}
-                >
-                  <OpenInNew />
-                </Button>
+                />
               }
               {selectedProject.repoLink &&
-                <Button
-                  href={selectedProject.repoLink}
-                  target='_blank'
-                  variant='contained'
+                <PaperButton
+                  link={selectedProject.repoLink}
+                  icon={technologies.find(tech => tech.id === 'github').icon}
                   sx={{
                     height: '35px',
-                    aspectRatio: 1,
-                    p: '6px',
-                    minWidth: 0,
-                    bgcolor: theme.palette.background.paper
+                    p: 0.75
                   }}
-                >
-                  <img
-                    src='icons/technologies/github.svg'
-                    style={{
-                      width: '100%',
-                      height: '100%'
-                    }}
-                  />
-                </Button>
+                />
               }
             </Box>
             <Typography
@@ -774,30 +756,19 @@ function App() {
               }}
             >
               {seamlessTooling.map(item => (
-                <ButtonBase
-                  target='_blank'
-                  href={item.link}
+                <PaperButton
+                  link={item.link}
+                  icon={item.icon}
                   sx={{
+                    height: toolingIconSize,
                     width: toolingIconSize,
-                    borderRadius: 2,
-                    overflow: 'hidden',
-                    flex: '0 0 auto',
-                    bgcolor: 'background.paper',
-                    padding: 0.5,
-                    border: '1px solid #424242'
+                    p: 0.5,
+                    border: '2px solid #424242',
+                    'img': {
+                      width: '100%'
+                    }
                   }}
-                >
-                  <img
-                    src={item.icon}
-                    alt={item.name}
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'contain'
-                    }}
-                    loading="lazy"
-                  />
-                </ButtonBase>
+                />
               ))}
             </Box>
           </Box>
@@ -821,7 +792,7 @@ function App() {
       >
          <Grid
           container
-          direction={{ xs: 'column-reverse', sm: 'column-reverse', md: 'column-reverse', lg: 'row' }}
+          direction={{ xs: 'column-reverse', lg: 'row' }}
           spacing={2}
           sx={{
             flexWrap: 'nowrap',
