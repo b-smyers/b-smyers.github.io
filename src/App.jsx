@@ -330,7 +330,10 @@ function App() {
       {projects.length != 0 &&
         <>
           <Divider
-            variant='inset'
+            variant='middle'
+            sx={{
+              m: 5
+            }}
           />
 
           <Typography
@@ -534,6 +537,7 @@ function App() {
               </Typography>
               <Divider
                 flexItem
+                variant='middle'
                 sx={{
                   flexGrow: 1,
                   m: 1
@@ -714,8 +718,9 @@ function App() {
       {tooling.length != 0 && 
         <>
           <Divider
-            variant='inset'
+            variant='middle'
             sx={{
+              mx: 5,
               mt: 10
             }}
           />
@@ -801,9 +806,9 @@ function App() {
 
       {/* Resume */}
       <Divider
-        variant='inset'
+        variant='middle'
         sx={{
-          my: 5
+          m: 5
         }}
       />
       
@@ -930,9 +935,9 @@ function App() {
 
       {/* Questions & Footer */}
       <Divider
-        variant='inset'
+        variant='middle'
         sx={{
-          my: 5
+          m: 5
         }}
       />
 
