@@ -100,5 +100,17 @@
         "id": "material-ui",
         "icon": "/icons/technologies/material-ui.svg",
         "link": "https://mui.com/"
+    },
+    {
+        "name": "Angular.js",
+        "id": "angularjs",
+        "icon": "/icons/technologies/angularjs.svg",
+        "link": "https://angularjs.org/"
+    },
+    {
+        "name": "Spring",
+        "id": "spring",
+        "icon": "/icons/technologies/spring.svg",
+        "link": "https://spring.io/"
     }
 ]

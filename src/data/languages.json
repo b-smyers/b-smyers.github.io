@@ -40,5 +40,11 @@
     "id": "lua",
     "icon": "/icons/languages/lua.png",
     "link": "https://lua.org/"
+  },
+  {
+    "name": "TypeScript",
+    "id": "typescript",
+    "icon": "/icons/languages/typescript.svg",
+    "link": "https://www.typescriptlang.org/"
   }
 ]
