@@ -627,7 +627,7 @@ function App() {
                         {selectedProject.members.map(member => {
                           return (
                             <PaperButton
-                              text={member.name + ' ' + member.role}
+                              text={member.name + ' - ' + member.role}
                             />
                           );
                         })}
