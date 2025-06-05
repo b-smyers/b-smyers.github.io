@@ -163,21 +163,13 @@ function App() {
   }, []);
 
   const scrollDistance = (tooling.length * (toolingIconSize + toolingIconGap * 8));
-  const scrollEffect = keyframes`
-    from {
-      left: 0;
-    }
-    to {
-      left: -${scrollDistance}px;
-    }
-  `;
 
   // Resume
   const [boxWidth, setBoxWidth] = React.useState(0);
 
   const onDownload = () => {
     const link = document.createElement('a');
-    link.download = `resume.txt`;
+    link.download = `resume.pdf`;
     link.href = 'documents/resume.pdf';
     link.click();
   };
@@ -313,7 +305,10 @@ function App() {
                       color: 'text.secondary',
                       fontStyle: 'italic',
                       textAlign: 'center',
-                      userSelect: 'none'
+                      userSelect: 'none',
+                      ':hover': {
+                        color: 'text.primary'
+                      }
                     }}
                   >
                     {quote.quote}
@@ -751,7 +746,11 @@ function App() {
                 position: 'absolute',
                 left: '0%',
                 display: 'flex',
-                animation: `${scrollEffect} ${scrollTime}s linear infinite`,
+                animation: `scrollEffect ${scrollTime}s linear infinite`,
+                '@keyframes scrollEffect': {
+                  '0%': { left: '0px' },
+                  '100%': { left: `-${scrollDistance}px` }
+                },
                 gap: toolingIconGap
               }}
             >
