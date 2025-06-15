@@ -87,6 +87,44 @@
     },
     {
         "id": 2,
+        "title": "Voice Agent Framework",
+        "description": "The Voice Agent Framework is a modular Python system for building customizable voice assistants by mixing and matching STT (Speech-to-Text), TTS (Text-to-Speech), and LLM (Large Language Model) backends, whether open-source or proprietary. Designed for flexibility, it allows seamless switching between local and cloud-based providers while supporting wake-word activation, configurable audio cues, and automatic silence detection. Key features include modular backends for swapping components without rewriting core logic, hybrid pipelines combining offline models like OpenAI Whisper and Piper TTS with cloud APIs like Gemini and ElevenLabs, and hands-free wake-word activation via Porcupine with audio feedback. This project strengthened my expertise in voice interface architecture, real-time audio processing, and API-agnostic system design, emphasizing clean abstractions for maintainable and extensible AI pipelines.",
+        "languages": [
+            "python"
+        ],
+        "technologies": [
+            "git",
+            "github"
+        ],
+        "date": {
+            "start": {
+                "year": 2025,
+                "month": 6,
+                "day": null
+            },
+            "end": {
+                "year": 2025,
+                "month": 6,
+                "day": null
+            },
+            "isOngoing": false
+        },
+        "repoLink": "https://github.com/b-smyers/voice-agent-framework/",
+        "link": null,
+        "images": [
+            "/images/projects/voice_agent_framework1.png",
+            "/images/projects/voice_agent_framework2.jpg",
+            "/images/projects/voice_agent_framework3.jpg"
+        ],
+        "members": [
+            {
+                "name": "Brendan Smyers",
+                "role": "Lead Developer"
+            }
+        ]
+    },
+    {
+        "id": 3,
         "title": "Battlecode 2024",
         "description": "Battlecode is an AI programming competition where participants build distributed systems to control autonomous agents in a real-time strategy game. For the 2024 challenge, our team developed an AI for a capture-the-flag scenario, focusing on adaptive decision-making and multi-agent coordination. I contributed to both the strategic logic and development infrastructure, implementing intuitive combat heuristics and coordinating weekly team development goals. I also introduced a GitHub Actions-based scrimmage system to benchmark our AI against public competitors, enabling rapid iteration and performance tuning. Our AI placed approximately 16th internationally and remained undefeated in the high school bracket. Through this project, I gained hands-on experience with JUnit, Gradle, and GitHub Actions, while sharpening skills in algorithmic strategy, testing automation, and collaborative version control.",
         "languages": [
@@ -139,7 +177,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Bridge Truss Solver",
         "description": "Bridge Truss Solver is a Python-based tool for analyzing and optimizing truss bridge designs. Developed to support a physics project, the program calculates compressive and tensile forces within bridge members and visualizes stress using a color-coded schematic. It supports custom materials with defined strength thresholds, enabling more realistic simulations. The tool was also an early experiment in automated design, using a basic genetic algorithm to explore optimal structures. While fitness function limitations led to unconventional results, the project offered valuable insight into simulation constraints and algorithmic optimization. Ultimately, the solver was instrumental in developing a bridge that set a still-standing class record based on weight-to-strength ratio. This project marked my first repositroy into GitHub and helped build foundational skills in physics simulation, data visualization, and basic AI-driven design workflows.",
         "languages": [
@@ -176,7 +214,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Trebuchet Optimizer",
         "description": "Trebuchet Optimizer is a Python program developed to algorithmically identify optimal trebuchet configurations for maximum projectile distance. Built to support a high school physics challenge, the tool automated interactions with an online simulation platform using Selenium, iteratively adjusting design parameters and logging results to discover high-performing setups. The project provided hands-on experience in data handling with NumPy and Pandas, allowing for sorting, exporting, and analyzing simulation outcomes. The final optimized design was constructed and tested, achieving a 165 ft theoretical range and ~150 ft in practice, within a 9% margin of error, outperforming the site's average 20% discrepancy. This project highlighted the real-world application of software to engineering problems and deepened my skills in automation, parameter tuning, and bridging digital models with physical execution.",
         "languages": [
@@ -215,7 +253,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Steganography Tool",
         "description": "A simple Python-based tool that hides and extracts messages in images using the Least Significant Bit (LSB) steganography technique. Users can interactively encode or decode messages in PNG images via the command line.",
         "languages": [
@@ -253,7 +291,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Boop AI Arena",
         "description": "Boop AI Arena is a C++ framework designed to support head-to-head benchmarking of custom AI agents for the game Boop (also known as Gekitai), originally developed as an extension of a class project. After building the core game logic and a basic AI, I expanded the project to allow others to create and test their own strategies in a controlled, terminal-based environment. The system tracks metrics such as average move time, number of turns, and win/loss performance between AIs. I implemented and compared multiple decision-making algorithms, including Minimax and Alpha-Beta Pruning, both of which significantly outperformed the original unoptimized tree search. This project deepened my experience with C++ polymorphism, modular design, and algorithmic evaluation, while reinforcing best practices for structuring and managing medium-sized codebases.",
         "languages": [
