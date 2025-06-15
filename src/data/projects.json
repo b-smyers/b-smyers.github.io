@@ -185,7 +185,8 @@
         ],
         "technologies": [
             "git",
-            "github"
+            "github",
+            "mongodb"
         ],
         "date": {
             "start": {
