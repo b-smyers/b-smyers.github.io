@@ -257,7 +257,7 @@
     {
         "id": 6,
         "title": "Steganography Tool",
-        "description": "A simple Python-based tool that hides and extracts messages in images using the Least Significant Bit (LSB) steganography technique. Users can interactively encode or decode messages in PNG images via the command line.",
+        "description": "A simple Python-based tool that hides and extracts messages in images using the Least Significant Bit (LSB) steganography technique. Users can interactively encode or decode messages in PNG images via the command line. If your interested, try it out on some of the images in the carousel. You won't be disappointed.",
         "languages": [
             "python"
         ],
