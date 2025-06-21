@@ -102,10 +102,10 @@
         "link": "https://mui.com/"
     },
     {
-        "name": "Angular.js",
-        "id": "angularjs",
-        "icon": "/icons/technologies/angularjs.svg",
-        "link": "https://angularjs.org/"
+        "name": "Angular",
+        "id": "angular",
+        "icon": "/icons/technologies/angular.svg",
+        "link": "https://angular.dev/"
     },
     {
         "name": "Spring",
