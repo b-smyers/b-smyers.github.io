@@ -112,5 +112,23 @@
         "id": "spring",
         "icon": "/icons/technologies/spring.svg",
         "link": "https://spring.io/"
+    },
+    {
+        "name": "PyTorch",
+        "id": "pytorch",
+        "icon": "/icons/technologies/pytorch.svg",
+        "link": "https://pytorch.org/"
+    },
+    {
+        "name": "NumPy",
+        "id": "numpy",
+        "icon": "/icons/technologies/numpy.svg",
+        "link": "https://numpy.org/"
+    },
+    {
+        "name": "Matplotlib",
+        "id": "matplotlib",
+        "icon": "/icons/technologies/matplotlib.svg",
+        "link": "https://matplotlib.org/"
     }
 ]

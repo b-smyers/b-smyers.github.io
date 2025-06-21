@@ -94,7 +94,9 @@
         ],
         "technologies": [
             "git",
-            "github"
+            "github",
+            "numpy",
+            "pytorch"
         ],
         "date": {
             "start": {
@@ -187,6 +189,8 @@
         "technologies": [
             "git",
             "github",
+            "numpy",
+            "matplotlib",
             "mongodb"
         ],
         "date": {
@@ -225,6 +229,7 @@
         "technologies": [
             "git",
             "github",
+            "numpy",
             "selenium"
         ],
         "date": {
