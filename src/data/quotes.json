@@ -2,601 +2,746 @@
     {
         "id": 0,
         "quote": "Every journey is a series of choices. The first is to begin the journey.",
-        "name": "Main Hub"
+        "source": "Antichamber"
     },
     {
         "id": 1,
         "quote": "Patience has its own rewards.",
-        "name": "A Game Of Leap Frog"
+        "source": "Antichamber"
     },
     {
         "id": 2,
         "quote": "Taking the first step can be harder than the rest of the challenge.",
-        "name": "Leap Of Faith"
+        "source": "Antichamber"
     },
     {
         "id": 3,
         "quote": "Many small obstacles can make for one large problem.",
-        "name": "Now You See It"
+        "source": "Antichamber"
     },
     {
         "id": 4,
         "quote": "Some choices leave us running around a lot without really getting anywhere.",
-        "name": "Many Paths To Nowhere"
+        "source": "Antichamber"
     },
     {
         "id": 5,
         "quote": "Live on your own watch, not on someone else's.",
-        "name": "Against the Clock"
+        "source": "Antichamber"
     },
     {
         "id": 6,
         "quote": "Failing to succeed does not mean failing to progress.",
-        "name": "Into Darkness"
+        "source": "Antichamber"
     },
     {
         "id": 7,
         "quote": "Some paths are clearer than others.",
-        "name": "Into Darkness"
+        "source": "Antichamber"
     },
     {
         "id": 8,
         "quote": "Some paths are straight forward.",
-        "name": "Down The Rabbit Hole"
+        "source": "Antichamber"
     },
     {
         "id": 9,
         "quote": "A choice may be as simple as going left or going right.",
-        "name": "Many Paths To Nowhere"
+        "source": "Antichamber"
     },
     {
         "id": 10,
         "quote": "The choice doesn't matter if the outcome is the same.",
-        "name": "Many Paths To Nowhere"
+        "source": "Antichamber"
     },
     {
         "id": 11,
         "quote": "If you don't like where you've ended up, try doing something else.",
-        "name": "A Fresh Start"
+        "source": "Antichamber"
     },
     {
         "id": 12,
         "quote": "When you return to where you have been, things aren't always as remembered.",
-        "name": "Many Paths To Nowhere"
+        "source": "Antichamber"
     },
     {
         "id": 13,
         "quote": "We fall down when there is nothing there to support us.",
-        "name": "Strength In Numbers"
+        "source": "Antichamber"
     },
     {
         "id": 14,
         "quote": "Building a bridge can get you over a problem.",
-        "name": "Cry Me A River"
+        "source": "Antichamber"
     },
     {
         "id": 15,
         "quote": "Some hurdles are too high to jump over.",
-        "name": "Don't Look Down"
+        "source": "Antichamber"
     },
     {
         "id": 16,
         "quote": "Life is full of ups and downs.",
-        "name": "Breaking The Arc"
+        "source": "Antichamber"
     },
     {
         "id": 17,
         "quote": "Connecting the pieces can solve a puzzle.",
-        "name": "Four Different Exits"
+        "source": "Antichamber"
     },
     {
         "id": 18,
         "quote": "Life has a way of pushing us in the right direction.",
-        "name": "Down The Rabbit Hole"
+        "source": "Antichamber"
     },
     {
         "id": 19,
         "quote": "The end may come before we were ready to get there.",
-        "name": "There's No Way In"
+        "source": "Antichamber"
     },
     {
         "id": 20,
         "quote": "Life isn't about getting to the end.",
-        "name": "There's No Way In"
+        "source": "Antichamber"
     },
     {
         "id": 21,
         "quote": "It's harder to progress if you're leaving things behind.",
-        "name": "Skinning A Cat"
+        "source": "Antichamber"
     },
     {
         "id": 22,
         "quote": "The further we get, the less help we need.",
-        "name": "I Can Do Anything"
+        "source": "Antichamber"
     },
     {
         "id": 23,
         "quote": "Moving forward may require making the most of what you've got.",
-        "name": "Not Enough Pieces"
+        "source": "Antichamber"
     },
     {
         "id": 24,
         "quote": "Some tasks require a lot of care and observation.",
-        "name": "Learning To Draw"
+        "source": "Antichamber"
     },
     {
         "id": 25,
         "quote": "Taking one path often means missing out on another.",
-        "name": "Hidden Secrets"
+        "source": "Antichamber"
     },
     {
         "id": 26,
         "quote": "A path may not be right or wrong. It may just be different.",
-        "name": "Don't Look Down"
+        "source": "Antichamber"
     },
     {
         "id": 27,
         "quote": "Look a little harder, and you will find a way forward.",
-        "name": "Into Darkness"
+        "source": "Antichamber"
     },
     {
         "id": 28,
         "quote": "Venturing into the unknown can lead to great rewards.",
-        "name": "There's No Way In"
+        "source": "Antichamber"
     },
     {
         "id": 29,
         "quote": "If you're only focusing on right now, you won't have enough for later.",
-        "name": "Not Enough Pieces"
+        "source": "Antichamber"
     },
     {
         "id": 30,
         "quote": "A dead end will only stop you if you don't try to move through it.",
-        "name": "Cry Me A River"
+        "source": "Antichamber"
     },
     {
         "id": 31,
         "quote": "Going a certain way may require building your own path.",
-        "name": "A Wall Without Stairs"
+        "source": "Antichamber"
     },
     {
         "id": 32,
         "quote": "There's nothing wrong with taking shortcuts.",
-        "name": "A Game Of Leap Frog"
+        "source": "Antichamber"
     },
     {
         "id": 33,
         "quote": "We often fall into things when we least expect.",
-        "name": "Taking Baby Steps"
+        "source": "Antichamber"
     },
     {
         "id": 34,
         "quote": "What looks out of reach may only be a few steps away.",
-        "name": "Connecting The Pieces"
+        "source": "Antichamber"
     },
     {
         "id": 35,
         "quote": "There are multiple ways to approach a situation.",
-        "name": "The Final Hurdle"
+        "source": "Antichamber"
     },
     {
         "id": 36,
         "quote": "When you've hit rock bottom, the only way is up.",
-        "name": "Don't Look Down"
+        "source": "Antichamber"
     },
     {
         "id": 37,
         "quote": "Some outcomes are more favorable than others.",
-        "name": "The Final Hurdle"
+        "source": "Antichamber"
     },
     {
         "id": 38,
         "quote": "How we perceive a problem can change every time we see it.",
-        "name": "Three Paths In Sight"
+        "source": "Antichamber"
     },
     {
         "id": 39,
         "quote": "The solution to a problem may just require a more thorough look at it.",
-        "name": "Running Into Trouble"
+        "source": "Antichamber"
     },
     {
         "id": 40,
         "quote": "Rushing through a problem won't always give the right results.",
-        "name": "Running Into Trouble"
+        "source": "Antichamber"
     },
     {
         "id": 41,
         "quote": "Moving through a problem slower may help find the solution.",
-        "name": "The Ground Floor"
+        "source": "Antichamber"
     },
     {
         "id": 42,
         "quote": "If you never stop trying, you will get there eventually.",
-        "name": "Stuck In A Rut"
+        "source": "Antichamber"
     },
     {
         "id": 43,
         "quote": "Raw persistence may be the only option other than giving up entirely.",
-        "name": "Stuck In A Rut"
+        "source": "Antichamber"
     },
     {
         "id": 44,
         "quote": "Some problems just come down to size.",
-        "name": "Strength In Numbers"
+        "source": "Antichamber"
     },
     {
         "id": 45,
         "quote": "A problem may only be difficult when you are missing the right tools.",
-        "name": "Climbing The Tower"
+        "source": "Antichamber"
     },
     {
         "id": 46,
         "quote": "What we've done before may impact what we can do next.",
-        "name": "Not Enough Pieces"
+        "source": "Antichamber"
     },
     {
         "id": 47,
         "quote": "If you aren't paying attention, you will miss everything around you.",
-        "name": "The Butterfly Effect"
+        "source": "Antichamber"
     },
     {
         "id": 48,
         "quote": "Some choices can leave us running around in circles.",
-        "name": "Stuck In A Rut"
+        "source": "Antichamber"
     },
     {
         "id": 49,
         "quote": "Splitting a problem up may help you find the answer.",
-        "name": "Climbing The Tower"
+        "source": "Antichamber"
     },
     {
         "id": 50,
         "quote": "What appears impossible may have a very simple answer.",
-        "name": "Impossible Paths"
+        "source": "Antichamber"
     },
     {
         "id": 51,
         "quote": "If you lose sight of what's important, it may not be there when you need it.",
-        "name": "Now You See It"
+        "source": "Antichamber"
     },
     {
         "id": 52,
         "quote": "Too much curiosity can get the best of us.",
-        "name": "Don't Look Down"
+        "source": "Antichamber"
     },
     {
         "id": 53,
         "quote": "Signs may be helping you more than you realize.",
-        "name": "Don't Look Down"
+        "source": "Antichamber"
     },
     {
         "id": 54,
         "quote": "Understanding a problem requires filling in the pieces.",
-        "name": "Hidden Behind Glass"
+        "source": "Antichamber"
     },
     {
         "id": 55,
         "quote": "Small steps can take you great distances.",
-        "name": "Taking Baby Steps"
+        "source": "Antichamber"
     },
     {
         "id": 56,
         "quote": "The path of least resistance is a valid option.",
-        "name": "Strength In Numbers"
+        "source": "Antichamber"
     },
     {
         "id": 57,
         "quote": "No matter how high you climb, there's always more to achieve.",
-        "name": "The Highest Point"
+        "source": "Antichamber"
     },
     {
         "id": 58,
         "quote": "Falling down teaches us how to get up and try again.",
-        "name": "Red Cross"
+        "source": "Antichamber"
     },
     {
         "id": 59,
         "quote": "The world rarely changes when we watch to see it happen.",
-        "name": "Now You See It"
+        "source": "Antichamber"
     },
     {
         "id": 60,
         "quote": "Half way through is half way finished.",
-        "name": "Learning To Draw"
+        "source": "Antichamber"
     },
     {
         "id": 61,
         "quote": "The problem may not be where you're going, but how to get there.",
-        "name": "Climbing The Tower"
+        "source": "Antichamber"
     },
     {
         "id": 62,
         "quote": "New skills enable further progress.",
-        "name": "Learning To Draw"
+        "source": "Antichamber"
     },
     {
         "id": 63,
         "quote": "Mastering a skill requires practice.",
-        "name": "Learning To Draw"
+        "source": "Antichamber"
     },
     {
         "id": 64,
         "quote": "A little kind direction can get obstacles out of your way.",
-        "name": "I Like To Move It"
+        "source": "Antichamber"
     },
     {
         "id": 65,
         "quote": "Solving a problem may require approaching it from a different angle.",
-        "name": "Many Different Angles"
+        "source": "Antichamber"
     },
     {
         "id": 66,
         "quote": "Try hard enough and you will get to where you want to be.",
-        "name": "Logic 101"
+        "source": "Antichamber"
     },
     {
         "id": 67,
         "quote": "Some doors will close unless we hold them open.",
-        "name": "Skinning A Cat"
+        "source": "Antichamber"
     },
     {
         "id": 68,
         "quote": "When you absorb your surroundings, you may notice things that you didn't see before.",
-        "name": "Three Paths In Sight"
+        "source": "Antichamber"
     },
     {
         "id": 69,
         "quote": "Dig a little deeper and you may find something new.",
-        "name": "Impossible Paths"
+        "source": "Antichamber"
     },
     {
         "id": 70,
         "quote": "Attention to detail can lead to very rewarding outcomes.",
-        "name": "Breaking The Arc"
+        "source": "Antichamber"
     },
     {
         "id": 71,
         "quote": "Solving a problem may require using abilities that we didn't realize we had.",
-        "name": "Closing The Gap"
+        "source": "Antichamber"
     },
     {
         "id": 72,
         "quote": "Old skills are useful even after we have learned new ones.",
-        "name": "A Wall Without Stairs"
+        "source": "Antichamber"
     },
     {
         "id": 73,
         "quote": "The right answers may also be the most obvious ones.",
-        "name": "The Ground Floor"
+        "source": "Antichamber"
     },
     {
         "id": 74,
         "quote": "Some obstacles are more stubborn than others.",
-        "name": "Learning To Draw"
+        "source": "Antichamber"
     },
     {
         "id": 75,
         "quote": "Some things don't have a deeper meaning.",
-        "name": "Red Cross"
+        "source": "Antichamber"
     },
     {
         "id": 76,
         "quote": "The right decisions at the right time will get you where you want to go.",
-        "name": "Lighting The Fuse"
+        "source": "Antichamber"
     },
     {
         "id": 77,
         "quote": "Some choices are only useful when we make them early.",
-        "name": "A Link To The Past"
+        "source": "Antichamber"
     },
     {
         "id": 78,
         "quote": "With forethought, things have a way of just working themselves out.",
-        "name": "Link In A Chain Reaction"
+        "source": "Antichamber"
     },
     {
         "id": 79,
         "quote": "Some challenges are far harder than they first appear.",
-        "name": "The Butterfly Effect"
+        "source": "Antichamber"
     },
     {
         "id": 80,
         "quote": "To get past a problem, you may just need to keep pushing through it.",
-        "name": "Jumping Through Hoops"
+        "source": "Antichamber"
     },
     {
         "id": 81,
         "quote": "Getting to a solution requires cutting out what doesn't work.",
-        "name": "Too Many Lasers"
+        "source": "Antichamber"
     },
     {
         "id": 82,
         "quote": "The further we explore, the more connected everything becomes.",
-        "name": "I Like To Move It"
+        "source": "Antichamber"
     },
     {
         "id": 83,
         "quote": "A window of opportunity can lead to new places if you are willing to take a closer look.",
-        "name": "Rings Within Darkness"
+        "source": "Antichamber"
     },
     {
         "id": 84,
         "quote": "The world looks different on the other side.",
-        "name": "Too Many Lasers"
+        "source": "Antichamber"
     },
     {
         "id": 85,
         "quote": "When you have enough resources, you can start growing more.",
-        "name": "Laying The Foundation"
+        "source": "Antichamber"
     },
     {
         "id": 86,
         "quote": "You can grow a garden anywhere.",
-        "name": "A Loop That Won't Close"
+        "source": "Antichamber"
     },
     {
         "id": 87,
         "quote": "The best solutions may still be the most primitive ones.",
-        "name": "Failing Forward"
+        "source": "Antichamber"
     },
     {
         "id": 88,
         "quote": "If you lead the way, others will follow.",
-        "name": "Hidden Behind Glass"
+        "source": "Antichamber"
     },
     {
         "id": 89,
         "quote": "Straightforward problems can often require roundabout solutions.",
-        "name": "Stairway To Heaven"
+        "source": "Antichamber"
     },
     {
         "id": 90,
         "quote": "If you are missing information, it's easy to be misled.",
-        "name": "A Book And Its Cover"
+        "source": "Antichamber"
     },
     {
         "id": 91,
         "quote": "When you look beyond the surface, there may be more to find.",
-        "name": "Many Different Angles"
+        "source": "Antichamber"
     },
     {
         "id": 92,
         "quote": "Sometimes we only have just enough to get by.",
-        "name": "The Missing Pieces"
+        "source": "Antichamber"
     },
     {
         "id": 93,
         "quote": "When what you have is not enough, find ways to turn it into more.",
-        "name": "Link In A Chain Reaction"
+        "source": "Antichamber"
     },
     {
         "id": 94,
         "quote": "Getting where we want may require jumping through some hoops.",
-        "name": "Jumping Through Hoops"
+        "source": "Antichamber"
     },
     {
         "id": 95,
         "quote": "Throwing yourself into things can take you to new heights.",
-        "name": "The Butterfly Effect"
+        "source": "Antichamber"
     },
     {
         "id": 96,
         "quote": "Similar problems can have entirely different solutions.",
-        "name": "A Wall Without Stairs"
+        "source": "Antichamber"
     },
     {
         "id": 97,
         "quote": "Some events happen whether we want them to or not.",
-        "name": "Inevitable Turns"
+        "source": "Antichamber"
     },
     {
         "id": 98,
         "quote": "Old solutions can apply to new problems.",
-        "name": "Just A Little Bit Shy"
+        "source": "Antichamber"
     },
     {
         "id": 99,
         "quote": "The consequences of one choice can cut us off from making others.",
-        "name": "The Final Hurdle"
+        "source": "Antichamber"
     },
     {
         "id": 100,
         "quote": "At times we need to view the world from someone else's perspective.",
-        "name": "There's No Way In"
+        "source": "Antichamber"
     },
     {
         "id": 101,
         "quote": "Sometimes you need to be carried.",
-        "name": "Impossible Paths"
+        "source": "Antichamber"
     },
     {
         "id": 102,
         "quote": "There comes a time when you can work your way through anything.",
-        "name": "I Can Do Anything"
+        "source": "Antichamber"
     },
     {
         "id": 103,
         "quote": "With more experience, previous challenges aren't so difficult.",
-        "name": "A Book And Its Cover"
+        "source": "Antichamber"
     },
     {
         "id": 104,
         "quote": "There's no need to take apart what already works.",
-        "name": "Deja Vu"
+        "source": "Antichamber"
     },
     {
         "id": 105,
         "quote": "A few steps backwards may keep you moving forwards.",
-        "name": "Window Of Opportunity"
+        "source": "Antichamber"
     },
     {
         "id": 106,
         "quote": "Obscure problems may require unusual solutions.",
-        "name": "Hitting A Wall"
+        "source": "Antichamber"
     },
     {
         "id": 107,
         "quote": "Getting to the end requires tying off the loose ends.",
-        "name": "I Can Do Anything"
+        "source": "Antichamber"
     },
     {
         "id": 108,
         "quote": "The world is always finding new ways to surprise us.",
-        "name": "Over The Edge"
+        "source": "Antichamber"
     },
     {
         "id": 109,
         "quote": "Sometimes we do things just to go along for the ride.",
-        "name": "Many Different Angles"
+        "source": "Antichamber"
     },
     {
         "id": 110,
         "quote": "The more we complete, the harder it gets to find what we missed.",
-        "name": "Many Different Angles"
+        "source": "Antichamber"
     },
     {
         "id": 111,
         "quote": "Some challenges exist just to test how much we know.",
-        "name": "Deja Vu"
+        "source": "Antichamber"
     },
     {
         "id": 112,
         "quote": "You can't do everything yourself.",
-        "name": "Failing Forward"
+        "source": "Antichamber"
     },
     {
         "id": 113,
         "quote": "The world is full of secrets waiting to be uncovered.",
-        "name": "One Long Corridor"
+        "source": "Antichamber"
     },
     {
         "id": 114,
         "quote": "Peeking behind the curtains lets us see how everything works.",
-        "name": "Over The Edge"
+        "source": "Antichamber"
     },
     {
         "id": 115,
         "quote": "Some problems can't be solved until you're more experienced.",
-        "name": "A Jump Too Far"
+        "source": "Antichamber"
     },
     {
         "id": 116,
         "quote": "We move on when there is nothing left to learn.",
-        "name": "A Jump Too Far"
+        "source": "Antichamber"
     },
     {
         "id": 117,
         "quote": "Complicated problems are easier when solved one step at a time.",
-        "name": "The Chase"
+        "source": "Antichamber"
     },
     {
         "id": 118,
         "quote": "We can appreciate the entire journey by looking back at how far we have come.",
-        "name": "The Escape"
+        "source": "Antichamber"
     },
     {
         "id": 119,
         "quote": "Every journey comes to an end.",
-        "name": "The Escape"
+        "source": "Antichamber"
+    },
+    {
+        "id": 120,
+        "quote": "War does not determine who is right - only who is left.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 121,
+        "quote": "When you do crazy things, expect crazy results",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 122,
+        "quote": "No I didn't trip, the floor looked like it needed a hug",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 123,
+        "quote": "Better late than never, but never late is better",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 124,
+        "quote": "When tempted to fight fire with fire, remember that the fire department generally uses water.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 125,
+        "quote": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 126,
+        "quote": "An idea isn't responsible for the people who believe in it.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 127,
+        "quote": "Between two evils, I always pick the one I never tried before.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 128,
+        "quote": "If two wrongs don't make a right, try three.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 129,
+        "quote": "Man cannot live by bread alone; he must have peanut butter.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 130,
+        "quote": "Knowledge is knowing a tomato is a fruit; wisdom is not putting it in a fruit salad.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 131,
+        "quote": "Do not argue with an idiot. He will drag you down to his level and beat you with experience.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 132,
+        "quote": "A bargain is something you don't need at a price you can't resist.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 133,
+        "quote": "If you steal from one author, it's plagiarism; if you steal from many, it's research.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 134,
+        "quote": "Nothing sucks more than that moment during an argument when you realize you're wrong.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 135,
+        "quote": "We've all heard that a million monkeys banging on a million typewriters will eventually reproduce the entire works of Shakespeare. Now, thanks to the Internet, we know this is not true.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 136,
+        "quote": "By working faithfully eight hours a day you may eventually get to be boss and work twelve hours a day.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 137,
+        "quote": "When tempted to fight fire with fire, remember that the Fire Department usually uses water.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 138,
+        "quote": "A bank is a place that will lend you money, if you can prove that you don't need it.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 139,
+        "quote": "Tell a man there are 300 billion stars in the universe and he'll believe you. Tell him a bench has wet paint on it and he'll have to touch it to be sure.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 141,
+        "quote": "The human brain is a wonderful thing. It starts working the moment you are born, and never stops until you stand up to speak in public.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 142,
+        "quote": "I don't need a hair stylist, my pillow gives me a new hairstyle every morning.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 143,
+        "quote": "Don't worry if plan A fails, there are 25 more letters in the alphabet.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 144,
+        "quote": "You never realize how boring your life is until someone asks what you like to do for fun.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 145,
+        "quote": "Life isn't measured by the number of breaths you take, but by the number of moments that take your breath away.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 146,
+        "quote": "The great pleasure in life is doing what people say you cannot do.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 147,
+        "quote": "If we were on a sinking ship, and there was only one life vest... I would miss you so much.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 148,
+        "quote": "All my life I thought air was free, until I bought a bag of chips.",
+        "source": "Phantom Forces"
+	},
+    {
+        "id": 149,
+        "quote": "Never take life seriously. Nobody gets out alive anyway.",
+        "source": "Phantom Forces"
     }
 ]
