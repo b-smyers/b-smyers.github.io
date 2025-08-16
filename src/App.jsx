@@ -24,8 +24,7 @@ import {
   ListItemText,
   ListItemIcon,
   ListItemButton,
-  ButtonBase,
-  keyframes,
+  ButtonBase
 } from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
 import { pdfjs, Document, Page } from 'react-pdf';
