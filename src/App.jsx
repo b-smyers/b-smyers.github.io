@@ -421,7 +421,7 @@ function App() {
                             pt: 1,
                           }}
                         >
-                          {project.languages.map(languageId => {
+                          {project.languages.slice(0, 2).map(languageId => {
                             const language = languages.find(lang => lang.id === languageId);
                             return (
                               <PaperButton
