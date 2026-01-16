@@ -248,7 +248,11 @@ function App() {
                         href={contact.link}
                         sx={{
                           borderRadius: '16px',
-                          py: 0.75 
+                          py: 0.75,
+                          border: '1px solid #434343',
+                          ":hover": {
+                            border: `1px solid white`
+                          }
                         }}
                       >
                         <ListItemIcon

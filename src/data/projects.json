@@ -1,93 +1,6 @@
 [
     {
         "id": 0,
-        "title": "Rolytics",
-        "description": "Rolytics is a custom-built analytics and remote control platform designed to empower Roblox developers with deeper insights and enhanced control over their games. It bridges the gap left by Roblox's native tools, offering detailed metrics on player behavior, in-game economics, performance, and social interactions, enabling developers to make data-driven decisions to optimize their experiences. Built using a Node.js + Express API, a React + Vite-powered frontend, and deployed via Docker, Nginx, and FreeDNS, Rolytics features a real-time dashboard that doubles as a live command and control center. The platform includes an A/B testing framework for experimenting with gameplay and monetization, remote command execution for live game servers, and live visualizations of server performance and client metrics (including FPS, memory, and physics simulations). Additionally, I developed an official Roblox Studio plugin to securely link in-game data to the Rolytics backend. This project solidified my skills in full-stack web development, REST API design, plugin architecture, and DevOps workflows, while also sharpening my focus on developer usability and scalable infrastructure.",
-        "languages": [
-            "typescript",
-            "javascript",
-            "lua"
-        ],
-        "technologies": [
-            "git",
-            "github",
-            "github-actions",
-            "jest",
-            "docker",
-            "nginx",
-            "expressjs",
-            "nodejs",
-            "vitejs",
-            "react",
-            "eslint",
-            "sqlite"
-        ],
-        "date": {
-            "start": {
-                "year": 2024,
-                "month": 7,
-                "day": null
-            },
-            "end": {
-                "year": null,
-                "month": null,
-                "day": null
-            },
-            "isOngoing": true
-        },
-        "repoLink": "https://github.com/b-smyers/rolytics",
-        "link": "https://rolytics.bot.nu/",
-        "images": [
-            "/images/projects/rolytics1.jpg",
-            "/images/projects/rolytics2.jpg",
-            "/images/projects/rolytics3.jpg",
-            "/images/projects/rolytics4.jpg"
-        ],
-        "members": [
-            {
-                "name": "Brendan Smyers",
-                "role": "Lead Developer"
-            }
-        ]
-    },
-    {
-        "id": 1,
-        "title": "Dungeon Odyssey",
-        "description": "Dungeon Odyssey is a custom-built dungeon crawler focused on procedural generation, modular gameplay systems, and party-based combat. The project was designed to explore scalable game architecture and deepen my understanding of systems design in a game development context. Throughout development, I created reusable services for inventory, item modeling, experience systems, and entity management; laying the groundwork for a maintainable, extensible codebase. I also implemented client/server separation and basic cheat-prevention measures to simulate real-world multiplayer security considerations. This project strengthened my skills in clean architecture, game systems engineering, and balancing scope with complexity. It also provided hands-on experience with designing emergent gameplay from procedural systems.",
-        "languages": [
-            "lua"
-        ],
-        "technologies": [],
-        "date": {
-            "start": {
-                "year": 2020,
-                "month": 6,
-                "day": null
-            },
-            "end": {
-                "year": 2025,
-                "month": 2,
-                "day": 12
-            },
-            "isOngoing": false
-        },
-        "repoLink": null,
-        "link": "https://www.roblox.com/games/5195557959/Dungeon-Odyssey",
-        "images": [
-            "/images/projects/dungeon_odyssey1.png",
-            "/images/projects/dungeon_odyssey2.jpg",
-            "/images/projects/dungeon_odyssey3.jpg",
-            "/images/projects/dungeon_odyssey4.jpg"
-        ],
-        "members": [
-            {
-                "name": "Brendan Smyers",
-                "role": "Lead Developer"
-            }
-        ]
-    },
-    {
-        "id": 2,
         "title": "Voice Agent Framework",
         "description": "The Voice Agent Framework is a modular Python system for building customizable voice assistants by mixing and matching STT (Speech-to-Text), TTS (Text-to-Speech), and LLM (Large Language Model) backends, whether open-source or proprietary. Designed for flexibility, it allows seamless switching between local and cloud-based providers while supporting wake-word activation, configurable audio cues, and automatic silence detection. Key features include modular backends for swapping components without rewriting core logic, hybrid pipelines combining offline models like OpenAI Whisper and Piper TTS with cloud APIs like Gemini and ElevenLabs, and hands-free wake-word activation via Porcupine with audio feedback. This project strengthened my expertise in voice interface architecture, real-time audio processing, and API-agnostic system design, emphasizing clean abstractions for maintainable and extensible AI pipelines.",
         "languages": [
@@ -123,7 +36,94 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Lead Developer"
+                "role": "Sole Developer"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Rolytics",
+        "description": "Rolytics is a custom-built analytics and remote control platform designed to empower Roblox developers with deeper insights and enhanced control over their games. It bridges the gap left by Roblox's native tools, offering detailed metrics on player behavior, in-game economics, performance, and social interactions, enabling developers to make data-driven decisions to optimize their experiences. Built using a Node.js + Express API, a React + Vite-powered frontend, and deployed via Docker, Nginx, and FreeDNS, Rolytics features a real-time dashboard that doubles as a live command and control center. The platform includes an A/B testing framework for experimenting with gameplay and monetization, remote command execution for live game servers, and live visualizations of server performance and client metrics (including FPS, memory, and physics simulations). Additionally, I developed an official Roblox Studio plugin to securely link in-game data to the Rolytics backend. This project solidified my skills in full-stack web development, REST API design, plugin architecture, and DevOps workflows, while also sharpening my focus on developer usability and scalable infrastructure.",
+        "languages": [
+            "typescript",
+            "javascript",
+            "lua"
+        ],
+        "technologies": [
+            "git",
+            "github",
+            "github-actions",
+            "jest",
+            "docker",
+            "nginx",
+            "expressjs",
+            "nodejs",
+            "vitejs",
+            "react",
+            "eslint",
+            "sqlite"
+        ],
+        "date": {
+            "start": {
+                "year": 2024,
+                "month": 7,
+                "day": null
+            },
+            "end": {
+                "year": 2025,
+                "month": 12,
+                "day": null
+            },
+            "isOngoing": true
+        },
+        "repoLink": "https://github.com/b-smyers/rolytics",
+        "link": "https://rolytics.bot.nu/",
+        "images": [
+            "/images/projects/rolytics1.jpg",
+            "/images/projects/rolytics2.jpg",
+            "/images/projects/rolytics3.jpg",
+            "/images/projects/rolytics4.jpg"
+        ],
+        "members": [
+            {
+                "name": "Brendan Smyers",
+                "role": "Sole Developer"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Dungeon Odyssey",
+        "description": "Dungeon Odyssey is a custom-built dungeon crawler focused on procedural generation, modular gameplay systems, and party-based combat. The project was designed to explore scalable game architecture and deepen my understanding of systems design in a game development context. Throughout development, I created reusable services for inventory, item modeling, experience systems, and entity management; laying the groundwork for a maintainable, extensible codebase. I also implemented client/server separation and basic cheat-prevention measures to simulate real-world multiplayer security considerations. This project strengthened my skills in clean architecture, game systems engineering, and balancing scope with complexity. It also provided hands-on experience with designing emergent gameplay from procedural systems.",
+        "languages": [
+            "lua"
+        ],
+        "technologies": [],
+        "date": {
+            "start": {
+                "year": 2020,
+                "month": 6,
+                "day": null
+            },
+            "end": {
+                "year": 2025,
+                "month": 2,
+                "day": 12
+            },
+            "isOngoing": false
+        },
+        "repoLink": null,
+        "link": "https://www.roblox.com/games/5195557959/Dungeon-Odyssey",
+        "images": [
+            "/images/projects/dungeon_odyssey1.png",
+            "/images/projects/dungeon_odyssey2.jpg",
+            "/images/projects/dungeon_odyssey3.jpg",
+            "/images/projects/dungeon_odyssey4.jpg"
+        ],
+        "members": [
+            {
+                "name": "Brendan Smyers",
+                "role": "Sole Developer"
             }
         ]
     },
@@ -216,7 +216,7 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Lead Developer"
+                "role": "Sole Developer"
             }
         ]
     },
@@ -256,7 +256,7 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Lead Developer"
+                "role": "Sole Developer"
             }
         ]
     },
@@ -294,7 +294,7 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Lead Developer"
+                "role": "Sole Developer"
             }
         ]
     },
@@ -330,7 +330,7 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Lead Developer"
+                "role": "Sole Developer"
             }
         ]
     }
