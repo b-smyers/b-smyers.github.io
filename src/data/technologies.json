@@ -130,5 +130,65 @@
         "id": "matplotlib",
         "icon": "/icons/technologies/matplotlib.svg",
         "link": "https://matplotlib.org/"
+    },
+    {
+        "name": "Android",
+        "id": "android",
+        "icon": "/icons/technologies/android.svg",
+        "link": "https://www.android.com/"
+    },
+    {
+        "name": "IOS",
+        "id": "ios",
+        "icon": "/icons/technologies/ios.svg",
+        "link": "https://www.apple.com/ios/"
+    },
+    {
+        "name": "Tailwind CSS",
+        "id": "tailwind-css",
+        "icon": "/icons/technologies/tailwind-css.svg",
+        "link": "https://tailwindcss.com/"
+    },
+    {
+        "name": "React Native",
+        "id": "react-native",
+        "icon": "/icons/technologies/react-native.svg",
+        "link": "https://reactnative.dev/"
+    },
+    {
+        "name": "Expo",
+        "id": "expo",
+        "icon": "/icons/technologies/expo.svg",
+        "link": "https://expo.dev/"
+    },
+    {
+        "name": "Redux",
+        "id": "redux",
+        "icon": "/icons/technologies/redux.svg",
+        "link": "https://redux.js.org/"
+    },
+    {
+        "name": "Firebase",
+        "id": "firebase",
+        "icon": "/icons/technologies/firebase.svg",
+        "link": "https://firebase.google.com/"
+    },
+    {
+        "name": "Penpot",
+        "id": "penpot",
+        "icon": "/icons/technologies/penpot.svg",
+        "link": "https://penpot.app/"
+    },
+    {
+        "name": "PostgreSQL",
+        "id": "postgresql",
+        "icon": "/icons/technologies/postgresql.svg",
+        "link": "https://www.postgresql.org/"
+    },
+    {
+        "name": "Redis",
+        "id": "redis",
+        "icon": "/icons/technologies/redis.svg",
+        "link": "https://redis.io/"
     }
 ]

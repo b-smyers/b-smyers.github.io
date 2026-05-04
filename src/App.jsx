@@ -134,7 +134,7 @@ function App() {
     }
 
     const endDateText = `${getMonthText(end.month)} ${end.year}`;
-    return `${startDateText} - ${endDateText}`;
+    return `${startDateText} — ${endDateText}`;
   };
 
   // Tooling experience
@@ -625,6 +625,7 @@ function App() {
                         {selectedProject.members.map(member => {
                           return (
                             <PaperButton
+                              link={member.link}
                               text={member.name + ' - ' + member.role}
                             />
                           );

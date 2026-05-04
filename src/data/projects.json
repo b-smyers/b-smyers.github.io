@@ -1,6 +1,78 @@
 [
     {
         "id": 0,
+        "title": "Pink Cab OU",
+        "description": "Pink Cab OU is a cross-platform ridesharing application developed at Ohio University as part of a senior capstone project. The app was built for the Pink Cab student organization to provide female-identifying students with a safer and more reliable way to request and offer rides around campus. Previously, rides were coordinated through large group chats where requests were frequently buried in message traffic and there was little structure for oversight. Pink Cab OU replaces this system with a dedicated platform that improves safety, visibility, and accountability. All users are required to verify their university enrollment details, and drivers provide additional vehicle information before they can accept rides. Ride requests are submitted through a structured system that allows drivers to clearly view and claim rides instead of searching through crowded messages, ensuring requests remain visible. The platform also introduces reporting tools, ride history, and moderation controls that allow Pink Cab officers to review incidents, suspend accounts, and manage the community responsibly. Features such as verified rider and driver accounts, a structured ride request and acceptance workflow, in-app messaging between riders and drivers, automated pricing rules, and administrative moderation tools support these improvements and provide a more organized system for coordinating rides.",
+        "languages": [
+            "typescript",
+            "golang"
+        ],
+        "technologies": [
+            "git",
+            "github",
+            "docker",
+            "nodejs",
+            "expo",
+            "react",
+            "react-native",
+            "postgresql",
+            "redis",
+            "android",
+            "ios",
+            "redux",
+            "firebase",
+            "eslint",
+            "penpot"
+        ],
+        "date": {
+            "start": {
+                "year": 2025,
+                "month": 8,
+                "day": 25
+            },
+            "end": {
+                "year": 2026,
+                "month": 5,
+                "day": 1
+            },
+            "isOngoing": false
+        },
+        "repoLink": null,
+        "link": "https://play.google.com/store/apps/details?id=com.colinster327.pinkcabapp&pcampaignid=web_share",
+        "images": [
+            "/images/projects/pink_cab_feature_graphic.png",
+            "/images/projects/pink_cab1.png",
+            "/images/projects/pink_cab2.png",
+            "/images/projects/pink_cab3.png",
+            "/images/projects/pink_cab4.png",
+            "/images/projects/pink_cab5.png",
+            "/images/projects/pink_cab6.png"
+        ],
+        "members": [
+            {
+                "name": "Brendan Smyers",
+                "role": "Team Leader",
+                "link": "https://www.linkedin.com/in/b-smyers/"
+            },
+            {
+                "name": "Colin Murphy",
+                "role": "Release Manager",
+                "link": "https://www.linkedin.com/in/colin-patrick-murphy/"
+            },
+            {
+                "name": "Jayden Dowell",
+                "role": "QA Manager",
+                "link": "https://www.linkedin.com/in/jaydendowell/"
+            },
+            {
+                "name": "Zachary Wolfe",
+                "role": "Documentation Manager",
+                "link": "https://www.linkedin.com/in/zacharywolfe295/"
+            }
+        ]
+    },
+    {
+        "id": 1,
         "title": "Voice Agent Framework",
         "description": "The Voice Agent Framework is a modular Python system for building customizable voice assistants by mixing and matching STT (Speech-to-Text), TTS (Text-to-Speech), and LLM (Large Language Model) backends, whether open-source or proprietary. Designed for flexibility, it allows seamless switching between local and cloud-based providers while supporting wake-word activation, configurable audio cues, and automatic silence detection. Key features include modular backends for swapping components without rewriting core logic, hybrid pipelines combining offline models like OpenAI Whisper and Piper TTS with cloud APIs like Gemini and ElevenLabs, and hands-free wake-word activation via Porcupine with audio feedback. This project strengthened my expertise in voice interface architecture, real-time audio processing, and API-agnostic system design, emphasizing clean abstractions for maintainable and extensible AI pipelines.",
         "languages": [
@@ -36,12 +108,13 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Sole Developer"
+                "role": "Sole Developer",
+                "link": "https://www.linkedin.com/in/b-smyers/"
             }
         ]
     },
     {
-        "id": 1,
+        "id": 2,
         "title": "Rolytics",
         "description": "Rolytics is a custom-built analytics and remote control platform designed to empower Roblox developers with deeper insights and enhanced control over their games. It bridges the gap left by Roblox's native tools, offering detailed metrics on player behavior, in-game economics, performance, and social interactions, enabling developers to make data-driven decisions to optimize their experiences. Built using a Node.js + Express API, a React + Vite-powered frontend, and deployed via Docker, Nginx, and FreeDNS, Rolytics features a real-time dashboard that doubles as a live command and control center. The platform includes an A/B testing framework for experimenting with gameplay and monetization, remote command execution for live game servers, and live visualizations of server performance and client metrics (including FPS, memory, and physics simulations). Additionally, I developed an official Roblox Studio plugin to securely link in-game data to the Rolytics backend. This project solidified my skills in full-stack web development, REST API design, plugin architecture, and DevOps workflows, while also sharpening my focus on developer usability and scalable infrastructure.",
         "languages": [
@@ -61,7 +134,8 @@
             "vitejs",
             "react",
             "eslint",
-            "sqlite"
+            "sqlite",
+            "tailwind-css"
         ],
         "date": {
             "start": {
@@ -87,12 +161,13 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Sole Developer"
+                "role": "Sole Developer",
+                "link": "https://www.linkedin.com/in/b-smyers/"
             }
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Dungeon Odyssey",
         "description": "Dungeon Odyssey is a custom-built dungeon crawler focused on procedural generation, modular gameplay systems, and party-based combat. The project was designed to explore scalable game architecture and deepen my understanding of systems design in a game development context. Throughout development, I created reusable services for inventory, item modeling, experience systems, and entity management; laying the groundwork for a maintainable, extensible codebase. I also implemented client/server separation and basic cheat-prevention measures to simulate real-world multiplayer security considerations. This project strengthened my skills in clean architecture, game systems engineering, and balancing scope with complexity. It also provided hands-on experience with designing emergent gameplay from procedural systems.",
         "languages": [
@@ -123,12 +198,13 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Sole Developer"
+                "role": "Sole Developer",
+                "link": "https://www.linkedin.com/in/b-smyers/"
             }
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Battlecode 2024",
         "description": "Battlecode is an AI programming competition where participants build distributed systems to control autonomous agents in a real-time strategy game. For the 2024 challenge, our team developed an AI for a capture-the-flag scenario, focusing on adaptive decision-making and multi-agent coordination. I contributed to both the strategic logic and development infrastructure, implementing intuitive combat heuristics and coordinating weekly team development goals. I also introduced a GitHub Actions-based scrimmage system to benchmark our AI against public competitors, enabling rapid iteration and performance tuning. Our AI placed approximately 16th internationally and remained undefeated in the high school bracket. Through this project, I gained hands-on experience with JUnit, Gradle, and GitHub Actions, while sharpening skills in algorithmic strategy, testing automation, and collaborative version control.",
         "languages": [
@@ -164,24 +240,28 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Team Leader"
+                "role": "Team Leader",
+                "link": "https://www.linkedin.com/in/b-smyers/"
             },
             {
                 "name": "Yuriy Slyvka",
-                "role": "Contributor"
+                "role": "Contributor",
+                "link": "https://www.linkedin.com/in/yuriyslyvka/"
             },
             {
                 "name": "Chase Morris",
-                "role": "Contributor"
+                "role": "Contributor",
+                "link": "https://www.linkedin.com/in/-chasemorris/"
             },
             {
                 "name": "Dominic Hoiseth",
-                "role": "Contributor"
+                "role": "Contributor",
+                "link": "https://www.linkedin.com/in/dhoiseth/"
             }
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Bridge Truss Solver",
         "description": "Bridge Truss Solver is a Python-based tool for analyzing and optimizing truss bridge designs. Developed to support a physics project, the program calculates compressive and tensile forces within bridge members and visualizes stress using a color-coded schematic. It supports custom materials with defined strength thresholds, enabling more realistic simulations. The tool was also an early experiment in automated design, using a basic genetic algorithm to explore optimal structures. While fitness function limitations led to unconventional results, the project offered valuable insight into simulation constraints and algorithmic optimization. Ultimately, the solver was instrumental in developing a bridge that set a still-standing class record based on weight-to-strength ratio. This project marked my first repositroy into GitHub and helped build foundational skills in physics simulation, data visualization, and basic AI-driven design workflows.",
         "languages": [
@@ -216,12 +296,13 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Sole Developer"
+                "role": "Sole Developer",
+                "link": "https://www.linkedin.com/in/b-smyers/"
             }
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Trebuchet Optimizer",
         "description": "Trebuchet Optimizer is a Python program developed to algorithmically identify optimal trebuchet configurations for maximum projectile distance. Built to support a high school physics challenge, the tool automated interactions with an online simulation platform using Selenium, iteratively adjusting design parameters and logging results to discover high-performing setups. The project provided hands-on experience in data handling with NumPy and Pandas, allowing for sorting, exporting, and analyzing simulation outcomes. The final optimized design was constructed and tested, achieving a 165 ft theoretical range and ~150 ft in practice, within a 9% margin of error, outperforming the site's average 20% discrepancy. This project highlighted the real-world application of software to engineering problems and deepened my skills in automation, parameter tuning, and bridging digital models with physical execution.",
         "languages": [
@@ -256,12 +337,13 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Sole Developer"
+                "role": "Sole Developer",
+                "link": "https://www.linkedin.com/in/b-smyers/"
             }
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Steganography Tool",
         "description": "A simple Python-based tool that hides and extracts messages in images using the Least Significant Bit (LSB) steganography technique. Users can interactively encode or decode messages in PNG images via the command line. If your interested, try it out on some of the images in the carousel. You won't be disappointed.",
         "languages": [
@@ -294,12 +376,13 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Sole Developer"
+                "role": "Sole Developer",
+                "link": "https://www.linkedin.com/in/b-smyers/"
             }
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Boop AI Arena",
         "description": "Boop AI Arena is a C++ framework designed to support head-to-head benchmarking of custom AI agents for the game Boop (also known as Gekitai), originally developed as an extension of a class project. After building the core game logic and a basic AI, I expanded the project to allow others to create and test their own strategies in a controlled, terminal-based environment. The system tracks metrics such as average move time, number of turns, and win/loss performance between AIs. I implemented and compared multiple decision-making algorithms, including Minimax and Alpha-Beta Pruning, both of which significantly outperformed the original unoptimized tree search. This project deepened my experience with C++ polymorphism, modular design, and algorithmic evaluation, while reinforcing best practices for structuring and managing medium-sized codebases.",
         "languages": [
@@ -330,7 +413,8 @@
         "members": [
             {
                 "name": "Brendan Smyers",
-                "role": "Sole Developer"
+                "role": "Sole Developer",
+                "link": "https://www.linkedin.com/in/b-smyers/"
             }
         ]
     }
